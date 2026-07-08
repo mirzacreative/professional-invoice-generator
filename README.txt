@@ -1,6 +1,6 @@
-GitHub Pages Upload Instructions
-1. Repository created for GitHub Pages.
-2. Upload all files from this ZIP directly into the repository root. No folders are used.
-3. Go to Settings > Pages > Deploy from branch > main > root.
-4. Sitemap, robots.txt and index canonical URL are set to https://mirzacreative.github.io/professional-invoice-generator/
-5. Submit sitemap in Google Search Console.
+﻿# InvoiceGen Pro
+
+Free invoice generator with logo upload, tax, discounts, multi-currency support, print and PDF download.
+
+Live URL: https://mirzacreative.github.io/professional-invoice-generator/
+Sitemap: https://mirzacreative.github.io/professional-invoice-generator/sitemap.xml
