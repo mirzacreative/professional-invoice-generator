@@ -1,0 +1,125 @@
+<!--
+  DRAFT — NOT PUBLISHED. Local file only; upload only after the run's publish step.
+  Target repo: mirzacreative/professional-invoice-generator
+  Target filename: blog-send-invoice-by-email.html
+  Target URL: https://mirzacreative.github.io/professional-invoice-generator/blog-send-invoice-by-email.html
+  Keyword: how to send an invoice by email
+  Post-upload steps: 1) Upload this file to the repo root. 2) Add the URL to sitemap.xml with lastmod 2026-11-17 (filename verified free on 2026-11-17 — not listed in the live sitemap). 3) Link it from blog.html and from the homepage guides section. 4) Request indexing (needs Search Console sign-in as aivideos146@gmail.com).
+  NOTE: follows the site's existing blog format (blog-invoice-vs-receipt.html — nav, .wrap.page.article, footer). Adds Article + BreadcrumbList + FAQPage JSON-LD, plus Twitter tags. Covers SENDING an invoice by email; does not repeat the invoice-vs-receipt post — that post and the payment-terms post are linked as follow-ups. Keyword basis: gap hypothesis.
+-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>How to Send an Invoice by Email (Step by Step)</title>
+  <meta name="description" content="How to send an invoice by email: subject line, email body, PDF attachment, payment details to include, and a follow-up schedule that gets you paid on time.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://mirzacreative.github.io/professional-invoice-generator/blog-send-invoice-by-email.html">
+  <meta property="og:title" content="How to Send an Invoice by Email (Step by Step)">
+  <meta property="og:description" content="How to send an invoice by email: subject line, email body, PDF attachment, payment details to include, and a follow-up schedule that gets you paid on time.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mirzacreative.github.io/professional-invoice-generator/blog-send-invoice-by-email.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="How to Send an Invoice by Email (Step by Step)">
+  <meta name="twitter:description" content="Subject line, email body, PDF attachment and follow-up schedule — everything you need to send an invoice by email and get paid on time.">
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to Send an Invoice by Email (Step by Step)",
+    "description": "How to send an invoice by email: subject line, email body, PDF attachment, payment details to include, and a follow-up schedule that gets you paid on time.",
+    "author": {"@type": "Organization", "name": "InvoiceGen Pro", "url": "https://mirzacreative.github.io/professional-invoice-generator/"},
+    "publisher": {"@type": "Organization", "name": "InvoiceGen Pro", "url": "https://mirzacreative.github.io/professional-invoice-generator/"},
+    "datePublished": "2026-11-17",
+    "dateModified": "2026-11-17",
+    "mainEntityOfPage": "https://mirzacreative.github.io/professional-invoice-generator/blog-send-invoice-by-email.html"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://mirzacreative.github.io/professional-invoice-generator/"},
+      {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://mirzacreative.github.io/professional-invoice-generator/blog.html"},
+      {"@type": "ListItem", "position": 3, "name": "How to Send an Invoice by Email", "item": "https://mirzacreative.github.io/professional-invoice-generator/blog-send-invoice-by-email.html"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type": "Question", "name": "What should the subject line be when sending an invoice by email?", "acceptedAnswer": {"@type": "Answer", "text": "Put the invoice number, your business name, and the amount due in the subject line — for example, 'Invoice INV-0142 from Studio North — $850 due 1 December 2026'. The recipient should be able to tell what the email is, how much is owed, and when it is due without opening it, and the invoice number makes it searchable later."}},
+      {"@type": "Question", "name": "Should I send an invoice as a PDF or in the email body?", "acceptedAnswer": {"@type": "Answer", "text": "Send it as a PDF attachment, and repeat the key details — amount, due date and payment method — in the email body. The PDF is the formal, printable record that the client can file and forward to their accounts team. The body text is what gets read first, so it must stand on its own even if the attachment is never opened."}},
+      {"@type": "Question", "name": "How long should I wait before following up on an unpaid invoice?", "acceptedAnswer": {"@type": "Answer", "text": "Send a polite reminder a few days after the due date passes, then follow up again about a week later, and escalate politely after 30 days overdue. A short, friendly first reminder — 'just checking this reached you' — resolves most late payments, because the commonest reason for a late invoice is that it was missed, not refused."}},
+      {"@type": "Question", "name": "What payment details should an invoice email include?", "acceptedAnswer": {"@type": "Answer", "text": "Include the total amount due, the due date, and exactly how to pay: bank account details or a payment link, plus any reference the client must use. The client should be able to pay from the email alone, without replying to ask for your bank details. If your terms include a late fee, state it in the email as well as on the invoice itself."}}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap">
+      <a class="logo" href="index.html"><span class="logo-mark">IG</span><span>InvoiceGen Pro</span></a>
+      <div class="links"><a href="index.html">Generator</a><a href="blog.html">Blog</a><a href="about.html">About</a><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></div>
+    </div>
+  </nav>
+  <main class="wrap page article">
+    <h1>How to Send an Invoice by Email (Step by Step)</h1>
+    <p><em>Updated 17 November 2026 · 7-minute read</em></p>
+    <p><strong>Quick answer:</strong> Send the invoice as a PDF attachment, and write the important details in the email itself: a clear subject line with the invoice number, the amount and the due date; a short, polite body that says what the invoice is for and how to pay; and the payment details, so the client can pay without replying to ask. Then follow up on a fixed schedule if the due date passes unpaid. Most invoices that go unpaid are not refused — they are missed, buried in an inbox, or waiting on a detail the client did not have. A well-written invoice email removes all three problems at once.</p>
+    <p>Email is how almost every freelancer and small business sends invoices now. It is instant, it costs nothing, and it leaves a paper trail with dates attached. But email also has a weakness: inboxes are crowded, and an invoice that looks like spam, or that makes the client hunt for the amount and the payment details, gets ignored. The difference between an invoice that is paid in three days and one that is chased for three weeks is usually not the work — it is the email. This guide walks through the whole process: preparing the invoice, writing the subject line and the body, attaching the PDF correctly, including the payment details, choosing the right time to send, and following up politely when payment is late.</p>
+    <h2>Step 1: Prepare the invoice first</h2>
+    <p>Before you write the email, make sure the invoice itself is complete. A proper invoice includes your business name and contact details, the client's name and address, a unique invoice number, the invoice date, a description of each item or service with its price, any tax, the total amount due, the payment due date, and your payment details. If any of these are missing, fix the invoice before sending it — an email cannot rescue an incomplete invoice, and a client who has to reply asking for the amount or the due date will pay later, not sooner. Create the invoice as a PDF, not as a Word document or a spreadsheet: a PDF looks the same on every device, it cannot be edited by accident, and it prints cleanly for the client's records. Give the file a clear name, such as <em>Invoice-INV-0142-Studio-North.pdf</em>, so the client can find it in their downloads folder later. The free <a href="index.html">invoice generator</a> on this site creates a complete PDF invoice with all of these fields, so nothing is left out. If you are unsure whether you need an invoice or a receipt for this payment, read our guide to <a href="blog-invoice-vs-receipt.html">invoice vs receipt: what's the difference</a> first — sending the wrong document is a common cause of payment delays.</p>
+    <h2>Step 2: Write a subject line that gets opened</h2>
+    <p>The subject line decides whether your email is opened today or buried until next week. It should answer three questions at a glance: what is this, how much is it, and when is it due. A good subject line looks like this: <em>Invoice INV-0142 from Studio North — $850 due 1 December 2026</em>. The invoice number makes the email searchable, your business name tells the client who it is from, and the amount and due date tell them how urgent it is. Keep the subject line under about 60 characters where you can, and avoid words that trigger spam filters or look like marketing — "urgent", "payment required", all-caps, or exclamation marks. Do not use a vague subject such as "Invoice" or "Hello" or "Following up": a client who receives twenty invoices a month cannot tell yours apart, and their accounts team will not know which project it belongs to. For a recurring monthly invoice, keep the format identical every month and change only the number, the amount and the date — consistency makes your invoices easy to find, and easy to find means easy to pay.</p>
+    <h2>Step 3: Write a short, polite email body</h2>
+    <p>The body of the email should be short, polite and complete on its own. The client should be able to understand the whole request without opening the attachment. A good structure is: one line of greeting and context, the key details, how to pay, and a polite close. For example:</p>
+    <p><em>Hi Sarah,</em></p>
+    <p><em>Thank you for working with us. Please find attached invoice INV-0142 for the website redesign, totalling $850, due 1 December 2026. You can pay by bank transfer using the details on the invoice — please use reference INV-0142 so we can match your payment. If you have any questions about the invoice, just reply to this email.</em></p>
+    <p><em>Best regards,<br>Studio North</em></p>
+    <p>Notice what this email does not do: it does not apologise for asking for money, it does not bury the amount in the third paragraph, and it does not leave the client guessing how to pay. Keep the tone friendly and professional, not stiff and not casual. If it is your first invoice to a new client, add one line of context — which project, which dates — so the client can match it to the work. If you have payment terms, such as a late fee, mention them briefly: "Payment is due within 14 days; a late fee applies after that date, as set out on the invoice." The terms themselves belong on the invoice, but a one-line reminder in the email means the client cannot say they did not see them. Our guide to <a href="blog-invoice-payment-terms.html">invoice payment terms freelancers should set</a> explains which terms are worth including and how to word them.</p>
+    <h2>Step 4: Attach the PDF — and check it</h2>
+    <p>Attach the PDF, then check it before you send. Open the attachment from your own email and confirm that it is the right invoice, the right client, the right amount and the right due date. This sounds obvious, but sending the wrong invoice to the wrong client is one of the most embarrassing and most common mistakes in freelancing — and it usually happens when you are in a hurry. Check the file size as well: a normal invoice PDF is small, well under a megabyte. If yours is much larger, something is wrong with the file. Send the invoice from your business email address, not a personal one, so the client recognises the sender and the email is less likely to land in spam. If the invoice is large or you are sending several invoices at once, send them as separate emails with separate subject lines, not as one email with five attachments — separate emails are easier for the client's accounts team to process, and a payment for one invoice does not get held up by a question about another. Finally, send a copy to yourself, or check your sent folder, so you have a record of exactly when the invoice went out. That date is the start of your follow-up clock.</p>
+    <h2>Step 5: Include the payment details in the email</h2>
+    <p>The payment details must appear in the email body as well as on the invoice. The client should be able to pay from the email alone, without opening the attachment and without replying to ask for your bank details. Include the total amount due, the due date, the payment method, and the reference to use. If you accept bank transfer, give the account name, account number and sort code or IBAN exactly as they appear on your bank statement. If you accept card or a payment link, include the link directly in the email. If you accept more than one method, list the easiest one first — the method you would like the client to use. State the reference clearly, usually the invoice number, and explain why it matters: "Please use reference INV-0142 so we can match your payment quickly." A client who pays without a reference creates extra work for you, and extra work delays the moment you can mark the invoice as paid. If your terms include a late fee or an early-payment discount, state it in the email in one line. Do not include sensitive information you do not need to share: the email needs enough detail to pay you, and nothing more.</p>
+    <h2>When to send the invoice</h2>
+    <p>Send the invoice as soon as the work is delivered, or on the date you agreed with the client — not days later. The longer the gap between delivery and invoice, the slower the payment, because the work is no longer fresh in the client's mind and the invoice feels less urgent. For project work, invoice when the milestone is complete. For recurring work, invoice on the same day each month, so the client expects it. Avoid sending invoices late on a Friday afternoon or at the weekend if you can: they sink to the bottom of the inbox by Monday. The best time is a weekday morning, when the client is working through their inbox and your invoice is near the top. If the client asked for the invoice to go to a specific person or a specific accounts email, send it there — not to the general contact who hired you. An invoice sent to the wrong person waits until someone forwards it, and forwarding is the step that gets forgotten. If you are not sure who should receive it, ask in the same email thread as the work was agreed, before the invoice is due.</p>
+    <h2>Follow-up schedule: what to do when payment is late</h2>
+    <p>Most late invoices are not refused — they are forgotten. A polite, fixed follow-up schedule fixes most of them without damaging the relationship. <strong>Before the due date:</strong> if the invoice is large, a short reminder two or three days before the due date is good practice — "Just a quick note that invoice INV-0142 for $850 is due on 1 December." <strong>A few days after the due date:</strong> send a friendly reminder, assuming the best: "I wanted to check whether invoice INV-0142 reached you — it was due on 1 December, and I have not seen the payment yet. Please let me know if there is anything you need from me." Attach the invoice again, so the client does not have to search for it. <strong>About two weeks overdue:</strong> follow up again, a little firmer: restate the amount, the due date, and the payment details, and ask when you can expect payment. <strong>After 30 days overdue:</strong> escalate politely but clearly — a phone call if you have the number, a firmer email if you do not, and a statement of what happens next under your terms, such as a late fee or pausing further work. Keep every follow-up short, polite and factual, and keep copies of all of them. A calm paper trail is your best protection if a late payment ever becomes a dispute. Never threaten, never send the same reminder daily, and never invoice a client who has already paid — check your bank before every follow-up.</p>
+    <h2>Common mistakes to avoid</h2>
+    <ul>
+      <li><strong>A vague subject line</strong> — "Invoice" tells the client nothing; include the number, your name, the amount and the due date.</li>
+      <li><strong>Hiding the key details in the attachment</strong> — if the amount and due date are only in the PDF, many clients will never see them.</li>
+      <li><strong>No payment details in the email</strong> — the client should be able to pay without replying to ask how.</li>
+      <li><strong>Sending the wrong invoice</strong> — always open the attachment and check the client, amount and due date before sending.</li>
+      <li><strong>Attaching a Word or spreadsheet file</strong> — use PDF, so the invoice looks the same everywhere and cannot be edited by accident.</li>
+      <li><strong>Apologising for invoicing</strong> — you did the work; asking to be paid is normal business, not an imposition.</li>
+      <li><strong>No follow-up schedule</strong> — an invoice with no follow-up is an invoice that can be forgotten indefinitely.</li>
+      <li><strong>Sending to the wrong person</strong> — ask who handles payments, and send the invoice to them directly.</li>
+    </ul>
+    <h2>How to send an invoice by email, in short</h2>
+    <p>Prepare a complete invoice as a PDF with a clear filename, write a subject line with the invoice number, your business name, the amount and the due date, and keep the email body short: what the invoice is for, how much is due, when it is due, and exactly how to pay. Attach the PDF, check it is the right one, and send it from your business address to the person who handles payments. Then follow up on a fixed schedule — a reminder before the due date for large invoices, a friendly note a few days after it passes, a firmer follow-up at two weeks, and a clear escalation after 30 days. It is a small routine, but it is the difference between being paid on time and chasing money for months. Set it up once, use the free <a href="index.html">invoice generator</a> to create each invoice correctly, and let the routine take care of itself. If you also want the wording that speeds up payment, read our <a href="blog-freelancer-invoice-tips.html">freelancer invoice tips for faster payments</a>.</p>
+    <h2>Frequently asked questions</h2>
+    <h3>What should the subject line be when sending an invoice by email?</h3>
+    <p>Put the invoice number, your business name, and the amount due in the subject line — for example, "Invoice INV-0142 from Studio North — $850 due 1 December 2026". The recipient should be able to tell what the email is, how much is owed, and when it is due without opening it, and the invoice number makes it searchable later.</p>
+    <h3>Should I send an invoice as a PDF or in the email body?</h3>
+    <p>Send it as a PDF attachment, and repeat the key details — amount, due date and payment method — in the email body. The PDF is the formal, printable record that the client can file and forward to their accounts team. The body text is what gets read first, so it must stand on its own even if the attachment is never opened.</p>
+    <h3>How long should I wait before following up on an unpaid invoice?</h3>
+    <p>Send a polite reminder a few days after the due date passes, then follow up again about a week later, and escalate politely after 30 days overdue. A short, friendly first reminder — "just checking this reached you" — resolves most late payments, because the commonest reason for a late invoice is that it was missed, not refused.</p>
+    <h3>What payment details should an invoice email include?</h3>
+    <p>Include the total amount due, the due date, and exactly how to pay: bank account details or a payment link, plus any reference the client must use. The client should be able to pay from the email alone, without replying to ask for your bank details. If your terms include a late fee, state it in the email as well as on the invoice itself.</p>
+  </main>
+  <footer class="footer">
+    <div class="wrap">
+      <p><b>InvoiceGen Pro</b> - free online invoice maker for freelancers and small businesses.</p>
+      <p><a href="privacy.html">Privacy</a> | <a href="terms.html">Terms</a> | <a href="disclaimer.html">Disclaimer</a> | <a href="contact.html">Contact</a> | <a href="sitemap.xml">Sitemap</a></p>
+    </div>
+  </footer>
+</body>
+</html>
